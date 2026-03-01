@@ -1,0 +1,30 @@
+# Bibliothèques principales
+pandas
+numpy==1.24.4
+scikit-learn
+matplotlib
+seaborn
+scipy
+IPython
+tensorflow
+keras
+keras-tuner
+pymc
+arviz
+category_encoders
+xgboost
+lightgbm
+catboost
+minisom
+tk
+# Pour kmodes et kprototypes
+kmodes
+scikit-learn-extra
+# Pour hdbscan
+hdbscan
+# Pour génération de PDF
+reportlab
+# Pour CMeans (fuzzy clustering)
+scikit-fuzzy
+# Pour COP-KMeans (graphes)
+networkx httpx
