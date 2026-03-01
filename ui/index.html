@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Toolbox | Modern Luxury</title>
+    <!-- Google Fonts: Playfair Display (Luxury) & Inter (Modern) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons (Phosphor Icons - Elegant) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo-area">
+                <h2>Toolbox</h2>
+            </div>
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-page="home">
+                    <i class="ph ph-house"></i> Home
+                </a>
+                <a href="#" class="nav-item" data-page="upload">
+                    <i class="ph ph-upload-simple"></i> Upload Data
+                </a>
+                <a href="#" class="nav-item" data-page="preprocessing">
+                    <i class="ph ph-sliders"></i> Preprocessing
+                </a>
+                <a href="#" class="nav-item" data-page="training">
+                    <i class="ph ph-brain"></i> Training
+                </a>
+                <a href="#" class="nav-item" data-page="prediction">
+                    <i class="ph ph-magic-wand"></i> Prediction
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dynamic Content Area -->
+            <div id="page-content">
+                <!-- Content will be injected here via JS -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

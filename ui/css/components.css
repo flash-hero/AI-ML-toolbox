@@ -1,0 +1,157 @@
+/* Cards */
+.card {
+    background-color: var(--card-bg);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    box-shadow: var(--shadow-soft);
+    margin-bottom: var(--spacing-md);
+    border: 1px solid rgba(86, 28, 36, 0.05);
+}
+
+/* Buttons */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    background-color: var(--action-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 6px;
+    font-family: var(--font-body);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+.btn:hover {
+    background-color: #3e1219;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(86, 28, 36, 0.2);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1px solid var(--action-color);
+    color: var(--action-color);
+}
+
+.btn-secondary:hover {
+    background-color: var(--action-color);
+    color: var(--bg-color);
+}
+
+/* File Upload */
+.upload-zone {
+    border: 2px dashed var(--action-color);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xl);
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.upload-zone:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.upload-icon {
+    font-size: 3rem;
+    color: var(--action-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+/* Inputs & Forms */
+.form-group {
+    margin-bottom: var(--spacing-md);
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.form-input,
+.form-select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgba(86, 28, 36, 0.2);
+    border-radius: 6px;
+    background-color: var(--white);
+    font-family: var(--font-body);
+    color: var(--text-primary);
+    transition: border-color 0.3s;
+}
+
+.form-input:focus,
+.form-select:focus {
+    outline: none;
+    border-color: var(--action-color);
+}
+
+/* Tables */
+.data-table-container {
+    overflow-x: auto;
+    border-radius: 8px;
+    border: 1px solid rgba(86, 28, 36, 0.1);
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.data-table th,
+.data-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid rgba(86, 28, 36, 0.05);
+}
+
+.data-table th {
+    background-color: var(--action-color);
+    color: var(--bg-color);
+    font-weight: 600;
+    font-family: var(--font-heading);
+}
+
+.data-table tr:nth-child(even) {
+    background-color: rgba(86, 28, 36, 0.02);
+}
+
+/* Stats Cards */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.stat-card {
+    background: var(--white);
+    padding: var(--spacing-md);
+    border-radius: var(--border-radius);
+    text-align: center;
+    border: 1px solid rgba(86, 28, 36, 0.1);
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--action-color);
+    font-family: var(--font-heading);
+}
+
+.stat-label {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
