@@ -299,8 +299,7 @@ python -m pytest tests/test_api.py -v
 
 ## License
 
-No license file yet — this repository is currently all-rights-reserved by default. Consider adding an [MIT license](https://choosealicense.com/licenses/mit/) if you want others to freely use or fork it.
-
+No license file yet  this repository is currently all-rights-reserved by default.
 ---
 
 <div align="center">
